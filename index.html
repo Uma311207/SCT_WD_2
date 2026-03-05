@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Enhanced Stopwatch - SkillCraft</title>
+  
+  <!-- Google Font: Orbitron (futuristic look) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&display=swap" rel="stylesheet">
+  
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body class="dark-theme">
+
+  <div class="container">
+    <h1>⏱️ STOPWATCH</h1>
+    <div class="subtitle">Enhanced Edition - SkillCraft Technology</div>
+
+    <div id="display">00:00:00.00</div>
+
+    <div class="controls">
+      <button id="startPause">Start</button>
+      <button id="lap" disabled>Lap</button>
+      <button id="reset" disabled>Reset</button>
+    </div>
+
+    <div class="theme-controls">
+      <button id="themeToggle">🌙 Dark</button>
+      <button id="export" style="display: none;">Export Laps</button>
+    </div>
+
+    <div class="laps-container" id="laps"></div>
+
+    <div class="footer">
+      Space: Start/Pause • L: Lap • R: Reset • T: Theme • E: Export
+      <br>Auto-saves laps to browser storage
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
