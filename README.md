@@ -4,7 +4,7 @@ My enhanced stopwatch web app.
 
 A modern, interactive, and visually stunning **stopwatch web application** built with HTML, CSS, and JavaScript.
 
-http://127.0.0.1:5500/index.html
+Live Demo, http://127.0.0.1:5500/index.html
 *(Replace this placeholder with a real screenshot later)*
 
 ## Features
